@@ -1,0 +1,18 @@
+default: --publish
+
+server: "hub.lambdatest.com"
+user: makenaroes
+key: K924FH6LZsO8JzjHyx0eyYnUb3LElaNbaIcAfB8isWotf0tnE4
+
+common_caps:
+  "LT:Options": {
+    "platformName": "Windows 10",
+    "project": "Untitled",
+    "w3c": true,
+    "plugin": "ruby-capybara"
+  }
+
+browser_caps:
+  -
+  "browserName": "Chrome",
+  "browserVersion": "110.0"
